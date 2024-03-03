@@ -19,11 +19,16 @@ public:
 
 	virtual void dCommentR(double x, double y, double a, int fs, string) = 0;
 
-	virtual void dGoalCage(double x, double y, int = 0) = 0;
+	virtual void dGoalCage(float x, float y, int = 0) = 0;
+	virtual void dGoalPost(float x, float y, int = 0) = 0;
 	virtual void dKeeperarea(double x, double y, int = 0) = 0;
+	virtual void dGoalCrease(double x, double y, int = 0, float = 5.0, float = 4.0) = 0;
 	virtual void dGoalCageDemo(double x, double y) = 0;
 
-	virtual void dLink(double x, double y, double w, double h) = 0;
+	virtual void dRink4x4(double x, double y, double w, double h) = 0;
+	virtual void dRink6x6(double x, double y, double w, double h) = 0;
+	virtual void dRink5x5unified(double x, double y, double w, double h) = 0;
+	virtual void dBall(double x, double y, double d, double dh) = 0;
 
 	virtual void wrt_field(string) = 0;
 
@@ -55,6 +60,7 @@ protected:
 	const Scalar COL_CAG = Scalar(0x0, 0x0, 0xF0);
 
 	vector<Point2i> normal_coord(const vector<Point2f>&);
+	int normal_height(const float);
 
 	int nor_width, nor_height;
 	float log_width, log_height;
@@ -75,11 +81,16 @@ public:
 
 	void dCommentR(double x, double y, double a, int fs, string);
 
-	void dGoalCage(double x, double y, int);
+	void dGoalCage(float x, float y, int);
+	void dGoalPost(float x, float y, int);
 	void dKeeperarea(double x, double y, int);
+	void dGoalCrease(double x, double y, int, float, float);
 	void dGoalCageDemo(double x, double y);
 
-	void dLink(double x, double y, double w, double h);
+	void dRink4x4(double x, double y, double w, double h);
+	void dRink6x6(double x, double y, double w, double h);
+	void dRink5x5unified(double x, double y, double w, double h);
+	void dBall(double x, double y, double d, double dh);
 
 	void wrt_field(string);
 private:
@@ -101,11 +112,16 @@ public:
 
 	void dCommentR(double x, double y, double a, int fs, string);
 
-	void dGoalCage(double x, double y, int);
+	void dGoalCage(float x, float y, int);
+	void dGoalPost(float x, float y, int);
 	void dKeeperarea(double x, double y, int);
+	void dGoalCrease(double x, double y, int, float, float);
 	void dGoalCageDemo(double x, double y);
 
-	void dLink(double x, double y, double w, double h);
+	void dRink4x4(double x, double y, double w, double h);
+	void dRink6x6(double x, double y, double w, double h);
+	void dRink5x5unified(double x, double y, double w, double h);
+	void dBall(double x, double y, double d, double dh);
 
 	void wrt_field(string);
 private:
@@ -114,9 +130,10 @@ private:
 
 	void svgPolyline(const vector<Point>&, string, int);
 	void svgPolygon(const vector<Point>&, string, bool = true);
+	void svgPolygonlw(const vector<Point>&, string, int = 4);
 	void svgLine(const Point2i, const Point2i, string, int = 0, int = 1);		// point-1 , point-2 , caption , ê¸éÌ(0:continuas,1:dash ---  ---), line-width
 	void svgText(const string, const Point2i, string, int = 1, double = 0.0); // caption , point , colour , font-size , angle
-	void svgLink(const int, int, int, int, string);
+	void svgRink(const int, int, int, int, string);
 
 	string rgb6(const vector<int>&, const string = "#");
 };

@@ -1,0 +1,34 @@
+<svg
+ xmlns = "http://www.w3.org/2000/svg"
+ width = "900"
+ height= "900"
+ viewBox = "0 0 900 900" >
+
+  <rect x="0" y="0" width="900" height="900" fill="#339966" fill-opacity="0.4" />
+  <rect x="377" y="124" rx="5" ry="5" width="145" height="54" stroke="#a00000" fill="transparent" fill-opacity="0.0" stroke-width="2" />
+  <polygon points="338 178 , 561 178 , 561 272 , 338 272" fill="#fffeff" stroke="#fffeff" stroke-width="2" fill-opacity="0.0" />
+  <polygon points="450 624 , 455 633 , 444 633" fill="#ff6600"  />
+  <polygon points="675 563 , 680 572 , 669 572" fill="#ff6600"  />
+  <polygon points="839 399 , 844 408 , 834 408" fill="#ff6600"  />
+  <polygon points="60 399 , 65 408 , 55 408" fill="#ff6600"  />
+  <polygon points="225 563 , 230 572 , 219 572" fill="#ff6600"  />
+  <polygon points="60 399 , 65 408 , 55 408" fill="#ff6600"  />
+  <line x1 = "450" y1="180" x2 = "675" y2="569" stroke="#336666" stroke-dasharray="2 3" stroke-width="1" />
+  <text x="569" y="370" font-family="sans-serif" font-size="26" transform="rotate(-32.000000,569,370)" fill= "#1a0066" >5m</text>
+  <line x1 = "450" y1="180" x2 = "839" y2="405" stroke="#336666" stroke-dasharray="2 3" stroke-width="1" />
+  <text x="648" y="285" font-family="sans-serif" font-size="26" transform="rotate(-62.000000,648,285)" fill= "#1a0066" >5m</text>
+  <line x1 = "450" y1="180" x2 = "450" y2="630" stroke="#336666" stroke-dasharray="2 3" stroke-width="1" />
+  <text x="457" y="404" font-family="sans-serif" font-size="26" transform="rotate(-2.000000,457,404)" fill= "#1a0066" >5m</text>
+  <line x1 = "450" y1="180" x2 = "225" y2="569" stroke="#336666" stroke-dasharray="2 3" stroke-width="1" />
+  <text x="344" y="378" font-family="sans-serif" font-size="26" transform="rotate(28.000000,344,378)" fill= "#1a0066" >5m</text>
+  <line x1 = "450" y1="180" x2 = "60" y2="405" stroke="#336666" stroke-dasharray="2 3" stroke-width="1" />
+  <text x="259" y="299" font-family="sans-serif" font-size="26" transform="rotate(58.000000,259,299)" fill= "#1a0066" >5m</text>
+  <text x="463" y="278" font-family="sans-serif" font-size="14" transform="rotate(-15.000000,463,278)" fill= "#1a0066" >30度</text>
+  <text x="510" y="258" font-family="sans-serif" font-size="14" transform="rotate(-45.000000,510,258)" fill= "#1a0066" >30度</text>
+  <text x="541" y="217" font-family="sans-serif" font-size="14" transform="rotate(-75.000000,541,217)" fill= "#1a0066" >30度</text>
+  <text x="409" y="270" font-family="sans-serif" font-size="14" transform="rotate(15.000000,409,270)" fill= "#1a0066" >30度</text>
+  <text x="369" y="238" font-family="sans-serif" font-size="14" transform="rotate(45.000000,369,238)" fill= "#1a0066" >30度</text>
+  <text x="351" y="190" font-family="sans-serif" font-size="14" transform="rotate(75.000000,351,190)" fill= "#1a0066" >30度</text>
+
+</svg>
+

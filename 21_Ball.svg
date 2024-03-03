@@ -1,0 +1,24 @@
+<svg
+ xmlns = "http://www.w3.org/2000/svg"
+ width = "600"
+ height= "600"
+ viewBox = "0 0 600 600" >
+
+  <rect x="0" y="0" width="600" height="600" fill="#339966" fill-opacity="0.4" />
+  <circle cx="300" cy="300" r = "216" fill="LightGreen" />
+  <circle cx="300" cy="300" r = "33" fill="Green" />
+  <circle cx="300" cy="192" r = "26" fill="Green" />
+  <circle cx="408" cy="300" r = "26" fill="Green" />
+  <circle cx="300" cy="408" r = "26" fill="Green" />
+  <circle cx="192" cy="300" r = "26" fill="Green" />
+  <circle cx="230" cy="132" r = "22" fill="Green" />
+  <circle cx="369" cy="132" r = "22" fill="Green" />
+  <circle cx="467" cy="230" r = "22" fill="Green" />
+  <circle cx="467" cy="369" r = "22" fill="Green" />
+  <circle cx="369" cy="467" r = "22" fill="Green" />
+  <circle cx="230" cy="467" r = "22" fill="Green" />
+  <circle cx="132" cy="369" r = "22" fill="Green" />
+  <circle cx="132" cy="230" r = "22" fill="Green" />
+
+</svg>
+

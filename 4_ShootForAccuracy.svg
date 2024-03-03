@@ -1,0 +1,37 @@
+<svg
+ xmlns = "http://www.w3.org/2000/svg"
+ width = "900"
+ height= "900"
+ viewBox = "0 0 900 900" >
+
+  <rect x="0" y="0" width="900" height="900" fill="#339966" fill-opacity="0.4" />
+  <rect x="377" y="124" rx="5" ry="5" width="145" height="54" stroke="#a00000" fill="transparent" fill-opacity="0.0" stroke-width="2" />
+  <polygon points="338 178 , 561 178 , 561 272 , 338 272" fill="#fffeff" stroke="#fffeff" stroke-width="2" fill-opacity="0.0" />
+  <line x1 = "180" y1="180" x2 = "180" y2="630" stroke="#336666" stroke-dasharray="2 3" stroke-width="1" />
+  <line x1 = "164" y1="180" x2 = "195" y2="180" stroke="#336666"  stroke-width="1" />
+  <line x1 = "164" y1="630" x2 = "195" y2="630" stroke="#336666"  stroke-width="1" />
+  <text x="130" y="405" font-family="sans-serif" font-size="26"  fill= "#1a0066" >5m</text>
+  <polygon points="315 630 , 585 630 , 585 627 , 315 627" fill="#fffeff"  />
+  <polyline points="633 534 , 633 420 , 644 409 , 795 409 , 806 420 , 806 534" fill="#a00000" stroke="#a00000" stroke-width="5" fill-opacity="0.0" />
+  <line x1 = "633" y1="502" x2 = "806" y2="502" stroke="#ffa07a" stroke-dasharray="2 3" stroke-width="3" />
+  <line x1 = "682" y1="415" x2 = "682" y2="540" stroke="#ffa07a" stroke-dasharray="2 3" stroke-width="3" />
+  <line x1 = "757" y1="415" x2 = "757" y2="540" stroke="#ffa07a" stroke-dasharray="2 3" stroke-width="3" />
+  <line x1 = "633" y1="388" x2 = "806" y2="388" stroke="#336666" stroke-dasharray="2 3" stroke-width="1" />
+  <line x1 = "633" y1="394" x2 = "633" y2="383" stroke="#336666"  stroke-width="1" />
+  <line x1 = "806" y1="394" x2 = "806" y2="383" stroke="#336666"  stroke-width="1" />
+  <text x="698" y="377" font-family="sans-serif" font-size="14"  fill= "#1a0066" >160cm</text>
+  <line x1 = "828" y1="410" x2 = "828" y2="535" stroke="#336666" stroke-dasharray="2 3" stroke-width="1" />
+  <line x1 = "823" y1="410" x2 = "832" y2="410" stroke="#336666"  stroke-width="1" />
+  <line x1 = "823" y1="535" x2 = "832" y2="535" stroke="#336666"  stroke-width="1" />
+  <text x="814" y="473" font-family="sans-serif" font-size="14"  fill= "#1a0066" >115cm</text>
+  <text x="579" y="529" font-family="sans-serif" font-size="14"  fill= "#336666" >30cm</text>
+  <text x="633" y="550" font-family="sans-serif" font-size="14"  fill= "#336666" >45cm</text>
+  <text x="649" y="475" font-family="sans-serif" font-size="26"  fill= "#0000ff" >5</text>
+  <text x="714" y="475" font-family="sans-serif" font-size="26"  fill= "#0000ff" >2</text>
+  <text x="774" y="475" font-family="sans-serif" font-size="26"  fill= "#0000ff" >5</text>
+  <text x="649" y="532" font-family="sans-serif" font-size="26"  fill= "#0000ff" >3</text>
+  <text x="714" y="532" font-family="sans-serif" font-size="26"  fill= "#0000ff" >1</text>
+  <text x="774" y="532" font-family="sans-serif" font-size="26"  fill= "#0000ff" >3</text>
+
+</svg>
+
